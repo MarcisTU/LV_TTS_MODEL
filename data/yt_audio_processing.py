@@ -285,6 +285,7 @@ def process_youtube_url(url, output_dir="output_dataset", target_lang="lv"):
 
 if __name__ == "__main__":
     target_dir = Path("./output_dataset")
+    target_dir.mkdir(parents=True, exist_ok=True)
 
     logger.info("Cleaning target directory...")
     for item in target_dir.iterdir():

@@ -16,6 +16,9 @@ torch.backends.cuda.enable_math_sdp(True)
 
 # pretrained_model_name_or_path = "OpenMOSS-Team/MOSS-TTS-v1.5"
 pretrained_model_name_or_path = "OpenMOSS-Team/MOSS-TTS-Local-Transformer"
+
+# todo load trained checkpoint
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 dtype = torch.bfloat16 if device == "cuda" else torch.float32
 

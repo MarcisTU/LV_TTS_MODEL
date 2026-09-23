@@ -6,7 +6,7 @@ Scripts and resources for preparing Latvian-language training data for fine-tuni
 
 ### Data Preparation
 
-* `./data/yt_audio_processing.py` — processes YouTube audio and subtitles for dataset preparation.
+* `./data/yt_audio_processing.py` - processes YouTube audio and subtitles for dataset preparation.
 
 ### Current Data Sources
 
